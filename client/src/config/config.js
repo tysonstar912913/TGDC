@@ -1,4 +1,4 @@
-export const CONTRACT_ADDRESS = "0x76fb68F0151894F2a0e83ce54dD302e62Cf48F64";   // The contract address to Rinkeby test network
+export const CONTRACT_ADDRESS = "0xcf7926a65884e23AB8dE542Aa36ca8c511E964A8";   // The contract address to Rinkeby test network
 export const HTTP_PREFIX = "https";
 export const API_HOST = "thegooddogclub.io";
 // export const API_PORT = "3000";

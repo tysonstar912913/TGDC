@@ -34,7 +34,7 @@ const CollectionProvider = props => {
   };
 
   const loadTotalSupplyHandler = async (contract) => {
-    const totalSupply = await contract.methods.totalTokenSupply().call();
+    const totalSupply = await contract.methods.totalSupply().call();
     dispatchCollectionAction({ type: 'LOADSUPPLY', totalSupply: totalSupply });
     return totalSupply;
   };
