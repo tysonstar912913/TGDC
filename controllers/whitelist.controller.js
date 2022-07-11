@@ -2,6 +2,7 @@ const { verifyWhitelist, merkle_root } = require('../models/merkleTree.service')
 
 const verify = (req, res) => {
   console.log(req.body)
+  console.log(req.body)
   const address = req.body.address
   const mintStep = req.body.mintStep
   console.log(`address: ${address}`)
