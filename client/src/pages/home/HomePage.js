@@ -8,7 +8,7 @@ import LiveAuctions from "../../components/LiveAuctions";
 import TopSellers from '../../components/TopSellers';
 import TodaysPick from "../../components/TodaysPick";
 import TeamIntroduce from "../../components/TeamIntroduce";
-import Roadmap from "../../components/Roadmap";
+// import Roadmap from "../../components/Roadmap";
 import Faqs from "../../components/Faqs";
 import Footer from "../../components/Footer";
 import Partnerships from "../../components/Partnerships";
@@ -53,7 +53,7 @@ const HomePage = (props) => {
 
         <TeamIntroduce />
         <Partnerships />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Faqs />
         <Footer />
       </div>

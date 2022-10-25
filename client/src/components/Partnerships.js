@@ -1,6 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import logo_title from '../assets/img/logo-title.png'
-import chewy_label from '../assets/img/chewy_label.png'
+// import chewy_label from '../assets/img/chewy_label.png'
 
 const Partnerships = ({ children }) => {
   return (

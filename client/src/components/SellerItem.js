@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import nft_img from '../assets/img/nft_img.png'
+// import nft_img from '../assets/img/nft_img.png'
 
 const SellerItem = ({ data }) => {
   return (

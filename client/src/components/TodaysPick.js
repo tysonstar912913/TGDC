@@ -39,18 +39,18 @@ const CustomRightArrow = ({ onClick, ...rest }) => {
   return <button className='carousel_right_arrow' onClick={() => onClick()}><i className="arrow right"></i></button>;
 };
 
-const SliderItemList = ({ dataList }) => {
-  console.log(dataList, 'item_list')
-  let slider_items = [];
-  for (let i = 0; i < dataList.length; i += 2) {
-    slider_items.push(<div className="slider_item" key={i}><AuctionItem data={dataList[i]} /><AuctionItem data={dataList[i + 1]} className="mt-20" /></div>);
-    console.log('slider_items', slider_items)
-  }
-  // return (
-  //   {slider_items}
-  // );
-  return slider_items;
-}
+// const SliderItemList = ({ dataList }) => {
+//   console.log(dataList, 'item_list')
+//   let slider_items = [];
+//   for (let i = 0; i < dataList.length; i += 2) {
+//     slider_items.push(<div className="slider_item" key={i}><AuctionItem data={dataList[i]} /><AuctionItem data={dataList[i + 1]} className="mt-20" /></div>);
+//     console.log('slider_items', slider_items)
+//   }
+//   // return (
+//   //   {slider_items}
+//   // );
+//   return slider_items;
+// }
 
 const TodaysPick = ({ children }) => {
   let dataList = TODAY_PICKS_LIST;

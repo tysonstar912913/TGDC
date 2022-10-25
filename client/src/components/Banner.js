@@ -13,13 +13,13 @@ const Banner = ({ children }) => {
       <div className='final_jump_back'>
         <div className="content">
           <div className="">
-            <Link
+            {/* <Link
               className="roadmap_btn"
               to="/"
               onClick={() => menu_clicked('roadmap')}
             >
               Roadmap <img src={icon_arrow} alt="arrow" />{' '}
-            </Link>
+            </Link> */}
             <h2 className="banner_title">
               The Metaverse And <br /> The NFT Space
             </h2>
